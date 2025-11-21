@@ -1,0 +1,58 @@
+{
+  "tests": [
+    {
+      "id": "dns_google",
+      "type": "dns",
+      "hostname": "www.google.com",
+      "max_lookup_ms": 500
+    },
+    {
+      "id": "dns_cloudflare",
+      "type": "dns",
+      "hostname": "www.cloudflare.com",
+      "max_lookup_ms": 500
+    },
+    {
+      "id": "dns_invalid_host",
+      "type": "dns",
+      "hostname": "notarealwebsite123.com",
+      "max_lookup_ms": 500
+    },
+    {
+      "id": "ping_google_dns",
+      "type": "ping",
+      "target": "8.8.8.8"
+    },
+    {
+      "id": "ping_cloudflare_dns",
+      "type": "ping",
+      "target": "1.1.1.1"
+    },
+    {
+      "id": "ping_very_slow_host",
+      "type": "ping",
+      "target": "192.0.2.1"
+    },
+    {
+      "id": "http_google_home",
+      "type": "http",
+      "url": "https://www.google.com",
+      "expected_status": 200,
+      "max_response_ms": 1500
+    },
+    {
+      "id": "http_example_home",
+      "type": "http",
+      "url": "https://example.com",
+      "expected_status": 200,
+      "max_response_ms": 1500
+    },
+    {
+      "id": "http_expected_to_fail",
+      "type": "http",
+      "url": "https://httpstat.us/503",
+      "expected_status": 200,
+      "max_response_ms": 1500
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 20px;
+    color:#e3e3e3;
+    background:#131314;
+    font-size: 15px;
+}
+table { 
+    border-collapse: collapse; 
+    width: 100%; 
+    background: #222222;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+table tr{
+    border-bottom: solid 1px #222222;
+}
+table th, 
+table td {
+    border: none; 
+    padding: 15px;
+ }
+table th{
+    text-align: left;
+ }
+table td:last-child,
+table th:last-child {
+    width: 30%;
+}
+table .pass { 
+    background: #365fdb; 
+}
+table .fail {
+    background: #a53558; 
+}
+.summary{
+    display: flex;
+    flex-direction: row;
+}
+.summary div{
+    background: #222222;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.summary div span{
+    width: 100%;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.meta{
+    display: flex;
+    width: fit-content;
+    margin-bottom: 20px;
+    font-size: 13px;
+    border: solid 1px #444746;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
