@@ -1,5 +1,7 @@
 # TraceWarden
 
+<img src="static/screenshot.png" alt="TraceWarden Report Screenshot">
+
 TraceWarden is a simple network diagnostics tool written in Python for educational purposes. It runs a set of connectivity checks (HTTP, DNS, and Ping) based on a JSON configuration file.
 
 ## Features
