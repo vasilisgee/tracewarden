@@ -1,4 +1,4 @@
-# TraceWarden
+# TraceWarden - Network Diagnostics 
 
 <img src="static/screenshot.png" alt="TraceWarden Report Screenshot">
 
